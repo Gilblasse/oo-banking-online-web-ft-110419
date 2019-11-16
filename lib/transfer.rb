@@ -10,6 +10,6 @@ class Transfer
   end
   
   def valid?
-    
+    true if sender.valid? && receiver.valid? && amount > 0
   end
 end
