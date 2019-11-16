@@ -2,7 +2,7 @@ class Transfer
   attr_accessor :balance, :status
   attr_reader :name
 
-  def initialize(transfer,adf,adf)
+  def initialize(transfer,adf,adfd)
     @transfer = transfer
     @balance = 1000
     @status = "open"
