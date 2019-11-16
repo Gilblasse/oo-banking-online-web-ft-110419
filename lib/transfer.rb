@@ -1,10 +1,10 @@
 class Transfer
   attr_accessor :balance, :status
-  attr_reader :sender
+  attr_reader :sender, :receiver
 
-  def initialize(sender,reciever,adfd)
+  def initialize(sender,receiver,adfd)
     @sender = sender
-    @balance = 1000
+    @receiver = receiver
     @status = "open"
   end
 end
