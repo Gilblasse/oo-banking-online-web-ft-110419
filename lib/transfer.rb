@@ -13,5 +13,8 @@ class Transfer
     true if sender.valid? && receiver.valid? && amount > 0
   end
   
+  def execute_transaction
+    
+  end
   
 end
